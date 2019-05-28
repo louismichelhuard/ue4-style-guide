@@ -426,13 +426,52 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
 |-- Content
     |-- <a href="#2.2">GenericShooter</a>
 
-
-	|-- StaticMesh
-        	|   |-- SodaCan_01
-			|   |-- BuildingDestroyed_01
-                	|   |   |-- BuildingDestroyed_Rails
-			|   |   |-- BuildingDestroyed_Beams
-			|   |   |-- BuildingDestroyed_Windows
+|-- ProjectName
+	|-- FS
+			|-- Animation
+				|-- Cinematics
+					|-- BuildingDestruction_01
+				|-- Blueprints
+					|-- FansRotating
+			|-- Audio
+			|-- Blueprints
+				|-- ToBeFilled by Programmers
+			|-- Characters
+				|-- CHA_Bob
+			|-- Environments
+				|-- Zone01
+					|-- Optimization
+			|-- FX
+				|-- ToBeFilled by Tech artist
+			|-- Gameplay
+				|-- ToBeFilled by Programmers
+				|-- FX
+			|-- Maps
+				|-- Zone01
+				|-- FX
+			|-- Materials
+				|-- Debug
+				|-- Functions
+				|-- Instances
+				|-- Masters
+				|-- Meshes
+				|-- textures
+			|-- StaticMesh
+				|-- Debug
+        			|   |-- SM_SodaCan_01
+					|   |-- BuildingDestroyed_01
+                			|   |   |-- BuildingDestroyed_Rails
+					|   |   |-- BuildingDestroyed_Beams
+					|   |   |-- BuildingDestroyed_Windows
+			|-- Textures
+				|-- CubeMaps
+				|-- Debug
+				|-- DefaultTextures
+				|-- LUT
+				|-- Noise
+				|-- Tilable
+				|-- Unique
+			|-- UI
 		
 </pre>
 
