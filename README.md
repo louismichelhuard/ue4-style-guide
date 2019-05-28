@@ -425,12 +425,14 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
 <pre>
 |-- Content
     |-- <a href="#2.2">GenericShooter</a>
-        |-- StaticMesh
-        |   |-- SodaCan_01
-|   |-- BuildingDestroyed_01
-                |   |   |-- BuildingDestroyed_Rails
-		|   |   |-- BuildingDestroyed_Beams
-		|   |   |-- BuildingDestroyed_Windows
+
+
+	|-- StaticMesh
+        	|   |-- SodaCan_01
+			|   |-- BuildingDestroyed_01
+                	|   |   |-- BuildingDestroyed_Rails
+			|   |   |-- BuildingDestroyed_Beams
+			|   |   |-- BuildingDestroyed_Windows
 		
 </pre>
 
