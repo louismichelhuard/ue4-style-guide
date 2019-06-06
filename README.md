@@ -440,7 +440,7 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
 				|-- CHA_Bob
 			|-- Environments
 				|-- Zone01
-					|-- Optimization
+					|-- Optimized assets and maps specific assets					
 			|-- FX
 				|-- ToBeFilled by Tech artist
 			|-- Gameplay
