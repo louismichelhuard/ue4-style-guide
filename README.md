@@ -445,10 +445,9 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
 				|-- ToBeFilled by Tech artist
 			|-- Gameplay
 				|-- ToBeFilled by Programmers
-				|-- FX
 			|-- Maps
 				|-- Zone01
-				|-- FX
+				|-- Zone02
 			|-- Materials
 				|-- Debug
 				|-- Functions
