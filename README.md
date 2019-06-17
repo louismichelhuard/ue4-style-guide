@@ -291,25 +291,26 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 <a name="1.2.6"></a>
 ### 1.2.6 Textures ![#](https://img.shields.io/badge/lint-supported-green.svg)
 
-| Asset Type              | Prefix     | Suffix     | Notes                            |
-| ----------------------- | ---------- | ---------- | -------------------------------- |
+| Asset Type              | Prefix     | Suffix     | Notes                            | Format                           
+| ----------------------- | ---------- | ---------- | -------------------------------- | -------------------------------- |
 | Texture                 | T_         |            |                                  |
-| Texture (Diffuse/Albedo/Base Color)| T_ | _D      | No Alpha channel                 |
-| Texture (Diffuse/Albedo/Base Color)| T_ | _DA     | Contains alpha channel           |
-| Texture (Normal)        | T_         | _N         |                                  |
-| Texture (Roughness)     | T_         | _R         |                                  |
-| Texture (Alpha/Opacity) | T_         | _O         |                                  |
-| Texture (Ambient Occlusion) | T_     | _AO        |                                  |
-| Texture (Bump)          | T_         | _B         |                                  |
-| Texture (Height)        | T_         | _H         |                                  |
-| Texture (Emissive)      | T_         | _E         |                                  |
-| Texture (Metallic)      | T_         | _MT        |                                  |
-| Texture (Mask)          | T_         | _M         |                                  |
-| Texture (Displacement)  | T_         | _DP        |                                  |
-| Texture (Specular)      | T_         | _S         |                                  |
-| Texture (SubSurfaceScaterring) | T_         | _DP        |                                  |
-| Texture MRH             | T_         | _MRH       | R: Metallic - G: Roughness - Blue: Height|
-| Texture MRA             | T_         | _MRA       | R: Metallic - G: Roughness - Blue: Ambient Occlusion|
+| Texture (Diffuse/Albedo/Base Color)| T_ | _D      | No Alpha channel                 |See T_Diffuse_Default from folder Default_textures as reference. 
+| Texture (Diffuse/Albedo/Base Color)| T_ | _DA     | Contains alpha channel           |See T_DiffuseWithAlpha_Default from folder Default_textures as reference.
+| Texture (Normal)        | T_         | _N         |                                  |See T_NormalMap_Default from folder Default_textures as reference.
+| Texture (Roughness)     | T_         | _R         |                                  |See T_Roughness_Default from folder Default_textures as reference.
+| Texture (Alpha) | T_         | _O         |                                  |See T_Alpha_Default from folder Default_textures as reference.
+| Texture (Opacity)          | T_         | _M         |                                  |See T_Opacity_Default from folder Default_textures as reference.
+| Texture (Ambient Occlusion) | T_     | _AO        |                                  |See T_Occlusion_Default from folder Default_textures as reference.
+| Texture (Height)        | T_         | _H         |                                  |See T_Heightmap_Default from folder Default_textures as reference.
+| Texture (Emissive)      | T_         | _E         |                                  |See T_Emissive_Default from folder Default_textures as reference.
+| Texture (Metallic)      | T_         | _MT        |                                  |See T_Metallic_Default from folder Default_textures as reference.
+| Texture (Displacement)  | T_         | _DP        |                                  |See T_Displacement_Default from folder Default_textures as reference.
+| Texture (Specular)      | T_         | _S         |                                  |See T_Specular_Default from folder Default_textures as reference.
+| Texture (SubSurfaceScaterring) | T_         | _DP        |                                  |See T_SSS_Default from folder Default_textures as reference.
+| Texture MRH             | T_         | _MRH       | R: Metallic - G: Roughness - Blue: Height| See T_MRH_Default from folder Default_textures as reference.
+! Bleu channel must always contain information about the height, cannot be left blank.
+| Texture MRA             | T_         | _MRA       | R: Metallic - G: Roughness - Blue: Ambient Occlusion| See T_MRA_Default from folder Default_textures as reference.
+! Bleu channel must always contain information about the AO, otherwise must be white.
 | Texture Cube            | TC_        |            |                                  |
 | Media Texture           | MT_        |            |                                  |
 | Render Target           | RT_        |            |                                  |
