@@ -298,8 +298,8 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 | Texture (Diffuse/Albedo/Base Color)| T_ | _DA     | Contains alpha channel           |See T_DiffuseWithAlpha_Default from folder Default_textures as reference.
 | Texture (Normal)        | T_         | _N         |                                  |See T_NormalMap_Default from folder Default_textures as reference.
 | Texture (Roughness)     | T_         | _R         |                                  |See T_Roughness_Default from folder Default_textures as reference.
-| Texture (Alpha) | T_         | _O         |                                  |See T_Alpha_Default from folder Default_textures as reference.
-| Texture (Opacity)          | T_         | _M         |                                  |See T_Opacity_Default from folder Default_textures as reference.
+| Texture (Alpha) | T_         | _A         |                                  |See T_Alpha_Default from folder Default_textures as reference.
+| Texture (Opacity)          | T_         | _O         |                                  |See T_Opacity_Default from folder Default_textures as reference.
 | Texture (Ambient Occlusion) | T_     | _AO        |                                  |See T_Occlusion_Default from folder Default_textures as reference.
 | Texture (Height)        | T_         | _H         |                                  |See T_Heightmap_Default from folder Default_textures as reference.
 | Texture (Emissive)      | T_         | _E         |                                  |See T_Emissive_Default from folder Default_textures as reference.
@@ -311,6 +311,7 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 ! Bleu channel must always contain information about the height, cannot be left blank.
 | Texture MRA             | T_         | _MRA       | R: Metallic - G: Roughness - Blue: Ambient Occlusion| See T_MRA_Default from folder Default_textures as reference.
 ! Bleu channel must always contain information about the AO, otherwise must be white.
+| Texture (Blend) | T_         | _M        |                                  |See T_Blend_Default from folder Default_textures as reference.
 | Texture Cube            | TC_        |            |                                  |
 | Media Texture           | MT_        |            |                                  |
 | Render Target           | RT_        |            |                                  |
