@@ -306,7 +306,7 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 | Texture (Metallic)      | T_         | _MT        |                                  |See T_Metallic_Default from folder Default_textures as reference.
 | Texture (Displacement)  | T_         | _DP        |                                  |See T_Displacement_Default from folder Default_textures as reference.
 | Texture (Specular)      | T_         | _S         |                                  |See T_Specular_Default from folder Default_textures as reference.
-| Texture (SubSurfaceScaterring) | T_         | _DP        |                                  |See T_SSS_Default from folder Default_textures as reference.
+| Texture (SubSurfaceScaterring) | T_         | _SSS        |                                  |See T_SSS_Default from folder Default_textures as reference.
 | Texture MRH             | T_         | _MRH       | R: Metallic - G: Roughness - Blue: Height| See T_MRH_Default from folder Default_textures as reference.
 ! Bleu channel must always contain information about the height, cannot be left blank.
 | Texture MRA             | T_         | _MRA       | R: Metallic - G: Roughness - Blue: Ambient Occlusion| See T_MRA_Default from folder Default_textures as reference.
