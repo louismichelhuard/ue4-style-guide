@@ -443,7 +443,8 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
 				|-- Zone01
 					|-- Optimized assets and maps specific assets					
 			|-- FX
-				|-- ToBeFilled by Tech artist
+				|-- BulletGun_01
+				|-- SmokeLight_01
 			|-- Gameplay
 				|-- ToBeFilled by Programmers
 			|-- Maps
@@ -467,6 +468,7 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
 				|-- CubeMaps
 				|-- Debug
 				|-- Defaults
+				|-- FX (shared maps)
 				|-- LUT
 				|-- Noise
 				|-- Tilable
