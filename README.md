@@ -442,7 +442,9 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
 			|-- Environments
 				|-- Zone01
 					|-- Optimized assets and maps specific assets					
+					|-- Blocking assets	
 			|-- FX
+				|-- Materials
 				|-- BulletGun_01
 				|-- SmokeLight_01
 			|-- Gameplay
@@ -455,20 +457,13 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
 				|-- Functions
 				|-- Instances
 				|-- Masters
-				|-- Meshes
-				|-- textures
 			|-- StaticMesh
 				|-- Debug
         			|   |-- SM_SodaCan_01
-					|   |-- BuildingDestroyed_01
-                			|   |   |-- BuildingDestroyed_Rails
-					|   |   |-- BuildingDestroyed_Beams
-					|   |   |-- BuildingDestroyed_Windows
 			|-- Textures
 				|-- CubeMaps
 				|-- Debug
 				|-- Defaults
-				|-- FX (shared maps)
 				|-- LUT
 				|-- Noise
 				|-- Tilable
